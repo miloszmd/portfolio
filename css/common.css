@@ -1,0 +1,128 @@
+/* line 7, ../sass/common.scss */
+a:link, a:visited, a:active, a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 13, ../sass/common.scss */
+.left {
+  text-align: left;
+}
+
+/* line 16, ../sass/common.scss */
+.right {
+  text-align: right;
+}
+
+/* line 19, ../sass/common.scss */
+.mini-logo {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: 3px solid #333;
+  color: #333;
+  border-radius: 50px;
+  text-align: center;
+  display: table;
+  transition: background-color .2s, color .2s;
+  -webkit-transition: background-color .2s, color .2s;
+  -moz-transition: background-color .2s, color .2s;
+  -o-transition: background-color .2s, color .2s;
+  -ms-transition: background-color .2s, color .2s;
+}
+
+/* line 34, ../sass/common.scss */
+.mini-logo:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* line 38, ../sass/common.scss */
+.mini-logo-text {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.250em;
+  font-weight: 700;
+}
+
+/* line 45, ../sass/common.scss */
+.hideme {
+  opacity: 0;
+}
+
+/* line 48, ../sass/common.scss */
+.spacer {
+  border-top: 2px solid #3498db;
+  margin: 15px auto;
+  width: 80%;
+}
+
+/* line 53, ../sass/common.scss */
+strong {
+  font-weight: 600;
+}
+
+@keyframes glow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-moz-keyframes glow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes glow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-ms-keyframes glow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-o-keyframes glow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* arrow anim */
+@keyframes arrowAnim {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(0, 10px);
+  }
+}
